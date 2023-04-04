@@ -1,0 +1,21 @@
+config:
+  target: 'http://localhost:8080'
+  phases:
+    - duration: 5
+      arrivalRate: 5
+      name: Warm up
+  payload:
+    path: 'users.csv'
+    fields:
+      - 'email'
+      - 'password'
+scenarios:
+  - name: 'Log in and proceed to Products page'
+    flow:
+      - post:
+          url: '/api/auth/login'
+          json:
+            email: '{{ email }}'
+            password: '{{ password }}'
+      - get:
+          url: '/api/products'

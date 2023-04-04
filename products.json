@@ -1,0 +1,22 @@
+[
+	{
+		"id": "141e11af-d64e-4975-94b8-a2888691b54c",
+		"name": "Bordeaux Blend - Grapes",
+		"description": "Lorem ipsum dolor sit amet, nam fierent perfecto ea, pro in albucius oportere accommodare. Ius everti consectetuer et, meis mutat.",
+		"code": "PFCH-2856-2940",
+		"price": 147.30,
+		"photo": "https://dummyimage.com/120x160/9e289e/abadc9.png",
+		"timestamp": "24/08/2021 18:49:02",
+		"stock": 29
+	},
+	{
+		"id": "903d039b-8f4a-4c20-b2e7-ca17dcaf85e2",
+		"name": "Pinot Noir - Grapes",
+		"description": "prueba2",
+		"code": "PFCH-2232-2332",
+		"price": 220.5,
+		"photo": "https://dummyimage.com/120x160/481657/fff.png",
+		"timestamp": "25/08/2021 12:23:15",
+		"stock": 53
+	}
+]

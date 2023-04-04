@@ -1,0 +1,291 @@
+[31merror[39m | Oct-26-2021 10:48:35 | Not Authorized.
+[31merror[39m | Oct-26-2021 10:51:51 | PID => 4524 will die
+[31merror[39m | Oct-26-2021 10:54:51 | PID => 4998 will die
+[31merror[39m | Oct-26-2021 12:45:00 | PID => 11770 will die
+[31merror[39m | Oct-26-2021 12:45:46 | PID => 12066 will die
+[31merror[39m | Nov-09-2021 13:37:17 | Error: undefined, Message: Unknown authentication strategy "login", Stack: Error: Unknown authentication strategy "login"
+    at attempt (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/node_modules/passport/lib/middleware/authenticate.js:184:39)
+    at authenticate (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/node_modules/passport/lib/middleware/authenticate.js:361:7)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/node_modules/express/lib/router/index.js:174:3) 
+[31merror[39m | Nov-09-2021 17:12:09 | Error: undefined, Message: This authorization code has been used., Stack: FacebookTokenError: This authorization code has been used.
+    at Strategy.parseErrorResponse (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/node_modules/passport-facebook/lib/strategy.js:198:12)
+    at Strategy.OAuth2Strategy._createOAuthError (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/node_modules/passport-oauth2/lib/strategy.js:420:16)
+    at /Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/node_modules/passport-oauth2/lib/strategy.js:177:45
+    at /Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/node_modules/oauth/lib/oauth2.js:191:18
+    at passBackControl (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/node_modules/oauth/lib/oauth2.js:132:9)
+    at IncomingMessage.<anonymous> (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/node_modules/oauth/lib/oauth2.js:157:7)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (internal/streams/readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+[31merror[39m | Nov-15-2021 09:21:26 | Error: -5, Message: Password must contain at least 8 characters, including 1 uppercase, 1 lowercase, 1 number and 1 special character., Stack: UserValidation: Password must contain at least 8 characters, including 1 uppercase, 1 lowercase, 1 number and 1 special character.
+    at new BaseError (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/errors/index.ts:13:11)
+    at new UserValidation (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/errors/index.ts:55:5)
+    at /Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/middlewares/auth.ts:99:12
+    at Generator.throw (<anonymous>)
+    at rejected (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/middlewares/auth.ts:6:65)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) 
+[31merror[39m | Nov-15-2021 09:57:11 | Error: -5, Message: All fields are required, please enter a valid photo, Stack: UserValidation: All fields are required, please enter a valid photo
+    at new BaseError (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/errors/index.ts:13:11)
+    at new UserValidation (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/errors/index.ts:55:5)
+    at /Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/middlewares/auth.ts:99:12
+    at Generator.throw (<anonymous>)
+    at rejected (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/middlewares/auth.ts:6:65)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) 
+[31merror[39m | Nov-15-2021 10:06:15 | Error: -6, Message: Missing credentials, Stack: UserExists: Missing credentials
+    at new BaseError (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/errors/index.ts:13:11)
+    at new UserExists (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/errors/index.ts:79:5)
+    at /Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/controllers/login.ts:35:13
+    at allFailed (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/node_modules/passport/lib/middleware/authenticate.js:101:18)
+    at attempt (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/node_modules/passport/lib/middleware/authenticate.js:174:28)
+    at Strategy.strategy.fail (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/node_modules/passport/lib/middleware/authenticate.js:296:9)
+    at Strategy.authenticate (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/node_modules/passport-local/lib/strategy.js:75:17)
+    at attempt (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/node_modules/passport/lib/middleware/authenticate.js:360:16)
+    at authenticate (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/node_modules/passport/lib/middleware/authenticate.js:361:7)
+    at signUpUser (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/controllers/login.ts:38:5) 
+[31merror[39m | Nov-15-2021 10:44:31 | Error: -8, Message: User not logged in, Stack: UserNotLoggedIn: User not logged in
+    at new BaseError (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/errors/index.ts:13:11)
+    at new UserNotLoggedIn (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/errors/index.ts:87:5)
+    at userData (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/controllers/login.ts:58:11)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/node_modules/express/lib/router/index.js:275:10) 
+[31merror[39m | Nov-15-2021 10:54:15 | Error: -4, Message: Product or Cart to add does not exist, Stack: NotFound: Product or Cart to add does not exist
+    at new BaseError (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/errors/index.ts:13:11)
+    at new NotFound (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/errors/index.ts:36:5)
+    at CartModelMongoDB.<anonymous> (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/models/mongodb/cart.ts:118:15)
+    at Generator.throw (<anonymous>)
+    at rejected (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/models/mongodb/cart.ts:6:65)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) 
+[31merror[39m | Nov-15-2021 10:55:00 | Error: -4, Message: Product does not exist on cart., Stack: NotFound: Product does not exist on cart.
+    at new BaseError (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/errors/index.ts:13:11)
+    at new NotFound (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/errors/index.ts:36:5)
+    at CartModelMongoDB.<anonymous> (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/models/mongodb/cart.ts:72:20)
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/models/mongodb/cart.ts:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) 
+[31merror[39m | Nov-15-2021 11:03:58 | Error: -4, Message: Product does not exist on cart., Stack: NotFound: Product does not exist on cart.
+    at new BaseError (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/errors/index.ts:13:11)
+    at new NotFound (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/errors/index.ts:36:5)
+    at CartModelMongoDB.<anonymous> (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/models/mongodb/cart.ts:72:20)
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/models/mongodb/cart.ts:5:58)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) 
+[31merror[39m | Nov-15-2021 11:25:22 | Error: -1, Message: Not Authorized., Stack: UnauthorizedRoute: Not Authorized.
+    at new BaseError (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/errors/index.ts:13:11)
+    at new UnauthorizedRoute (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/errors/index.ts:45:5)
+    at isLoggedIn (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/middlewares/auth.ts:125:11)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/node_modules/express/lib/router/index.js:317:13)
+    at /Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/node_modules/express/lib/router/index.js:47:12) 
+[31merror[39m | Nov-15-2021 11:26:27 | Error: -4, Message: Product does not exist on cart., Stack: NotFound: Product does not exist on cart.
+    at new BaseError (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/errors/index.ts:13:11)
+    at new NotFound (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/errors/index.ts:36:5)
+    at CartModelMongoDB.<anonymous> (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/models/mongodb/cart.ts:72:20)
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/models/mongodb/cart.ts:5:58)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) 
+[31merror[39m | Jan-02-2022 13:08:05 | Error: -7, Message: Missing credentials, Stack: UserExists: Missing credentials
+    at new BaseError (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/errors/index.ts:13:11)
+    at new UserExists (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/errors/index.ts:86:5)
+    at /Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/controllers/users.ts:76:13
+    at allFailed (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/node_modules/passport/lib/middleware/authenticate.js:101:18)
+    at attempt (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/node_modules/passport/lib/middleware/authenticate.js:174:28)
+    at Strategy.strategy.fail (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/node_modules/passport/lib/middleware/authenticate.js:296:9)
+    at Strategy.authenticate (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/node_modules/passport-local/lib/strategy.js:75:17)
+    at attempt (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/node_modules/passport/lib/middleware/authenticate.js:360:16)
+    at authenticate (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/node_modules/passport/lib/middleware/authenticate.js:361:7)
+    at addUser (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/controllers/users.ts:82:5) 
+[31merror[39m | Jan-02-2022 16:57:59 | Error: -5, Message: Method not implemented, Stack: NotImplemented: Method not implemented
+    at new BaseError (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/errors/index.ts:13:11)
+    at new NotImplemented (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/errors/index.ts:20:5)
+    at /Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/controllers/product.ts:48:14
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/controllers/product.ts:5:58)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) 
+[31merror[39m | Jan-02-2022 17:09:29 | Error: -4, Message: Product to add does not exist., Stack: NotFound: Product to add does not exist.
+    at new BaseError (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/errors/index.ts:13:11)
+    at new NotFound (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/errors/index.ts:43:5)
+    at CartModel.<anonymous> (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/models/memory/cart.ts:33:15)
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/models/memory/cart.ts:5:58)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) 
+[31merror[39m | Jan-02-2022 17:10:12 | Error: -10, Message: Cart is empty!, Stack: CartIsEmpty: Cart is empty!
+    at new BaseError (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/errors/index.ts:13:11)
+    at new CartIsEmpty (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/errors/index.ts:102:5)
+    at /Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/controllers/orders.ts:91:11
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/controllers/orders.ts:5:58)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) 
+[31merror[39m | Jan-02-2022 17:11:15 | Error: -1, Message: You do not have permission to perform this action., Stack: UnauthorizedRoute: You do not have permission to perform this action.
+    at new BaseError (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/errors/index.ts:13:11)
+    at new UnauthorizedRoute (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/errors/index.ts:52:5)
+    at isAdmin (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/middlewares/checkAdmin.ts:17:11)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/node_modules/express/lib/router/index.js:275:10) 
+[31merror[39m | Jan-02-2022 17:11:39 | Error: -4, Message: Product to add does not exist., Stack: NotFound: Product to add does not exist.
+    at new BaseError (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/errors/index.ts:13:11)
+    at new NotFound (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/errors/index.ts:43:5)
+    at CartModel.<anonymous> (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/models/memory/cart.ts:33:15)
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/models/memory/cart.ts:5:58)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) 
+[31merror[39m | Jan-02-2022 18:50:32 | Error: -6, Message: Please enter a valid photo, Stack: UserValidation: Please enter a valid photo
+    at new BaseError (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/errors/index.ts:13:11)
+    at new UserValidation (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/errors/index.ts:62:5)
+    at /Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/middlewares/auth.ts:122:12
+    at Generator.throw (<anonymous>)
+    at rejected (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/middlewares/auth.ts:6:65)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) 
+[31merror[39m | Jan-02-2022 19:11:27 | Error: -6, Message: "photo" is not allowed, Stack: UserValidation: "photo" is not allowed
+    at new BaseError (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/errors/index.ts:13:11)
+    at new UserValidation (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/errors/index.ts:62:5)
+    at /Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/middlewares/auth.ts:122:12
+    at Generator.throw (<anonymous>)
+    at rejected (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/middlewares/auth.ts:6:65)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) 
+[31merror[39m | Jan-02-2022 19:14:52 | Error: -6, Message: All fields are required, please enter a valid photo, Stack: UserValidation: All fields are required, please enter a valid photo
+    at new BaseError (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/errors/index.ts:13:11)
+    at new UserValidation (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/errors/index.ts:62:5)
+    at /Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/middlewares/auth.ts:122:12
+    at Generator.throw (<anonymous>)
+    at rejected (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/middlewares/auth.ts:6:65)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) 
+[31merror[39m | Jan-02-2022 19:15:04 | Error: -6, Message: All fields are required, please enter a valid photo, Stack: UserValidation: All fields are required, please enter a valid photo
+    at new BaseError (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/errors/index.ts:13:11)
+    at new UserValidation (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/errors/index.ts:62:5)
+    at /Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/middlewares/auth.ts:122:12
+    at Generator.throw (<anonymous>)
+    at rejected (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/middlewares/auth.ts:6:65)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) 
+[31merror[39m | Jan-02-2022 20:23:38 | Error: ValidationError: postalCode: Path `postalCode` is required., Message: An error occurred when creating order, please try again., Stack: undefined 
+[31merror[39m | Jan-02-2022 21:46:50 | Error: -1, Message: You need to be logged-in to perform this action, Stack: UnauthorizedRoute: You need to be logged-in to perform this action
+    at new BaseError (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/errors/index.ts:13:11)
+    at new UnauthorizedRoute (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/errors/index.ts:52:5)
+    at isLoggedIn (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/middlewares/auth.ts:148:11)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/node_modules/express/lib/router/index.js:317:13)
+    at /Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/node_modules/express/lib/router/index.js:47:12) 
+[31merror[39m | Jan-02-2022 21:48:32 | Error: ValidationError: postalCode: Path `postalCode` is required., Message: An error occurred when creating order, please try again., Stack: undefined 
+[31merror[39m | Jan-02-2022 21:55:17 | Error: -4, Message: Order could not be found, please check the data and try again, Stack: NotFound: Order could not be found, please check the data and try again
+    at new BaseError (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/errors/index.ts:13:11)
+    at new NotFound (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/errors/index.ts:43:5)
+    at OrdersModelMongoDb.<anonymous> (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/models/mongodb/orders.ts:126:15)
+    at Generator.throw (<anonymous>)
+    at rejected (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/models/mongodb/orders.ts:6:65)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) 
+[31merror[39m | Jan-02-2022 21:58:22 | Error: ValidationError: postalCode: Path `postalCode` is required., Message: An error occurred when creating order, please try again., Stack: undefined 
+[31merror[39m | Jan-02-2022 22:03:08 | Error: -4, Message: Order could not be found, please check the data and try again, Stack: NotFound: Order could not be found, please check the data and try again
+    at new BaseError (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/errors/index.ts:13:11)
+    at new NotFound (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/errors/index.ts:43:5)
+    at OrdersModelMongoDb.<anonymous> (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/models/mongodb/orders.ts:126:15)
+    at Generator.throw (<anonymous>)
+    at rejected (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/models/mongodb/orders.ts:6:65)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) 
+[31merror[39m | Jan-02-2022 22:03:37 | Error: ValidationError: postalCode: Path `postalCode` is required., Message: An error occurred when creating order, please try again., Stack: undefined 
+[31merror[39m | Jan-03-2022 13:58:51 | Error: -7, Message: Missing credentials, Stack: UserExists: Missing credentials
+    at new BaseError (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/errors/index.ts:13:11)
+    at new UserExists (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/errors/index.ts:86:5)
+    at /Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/controllers/users.ts:76:13
+    at allFailed (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/node_modules/passport/lib/middleware/authenticate.js:101:18)
+    at attempt (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/node_modules/passport/lib/middleware/authenticate.js:174:28)
+    at Strategy.strategy.fail (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/node_modules/passport/lib/middleware/authenticate.js:296:9)
+    at Strategy.authenticate (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/node_modules/passport-local/lib/strategy.js:75:17)
+    at attempt (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/node_modules/passport/lib/middleware/authenticate.js:360:16)
+    at authenticate (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/node_modules/passport/lib/middleware/authenticate.js:361:7)
+    at addUser (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/controllers/users.ts:82:5) 
+[31merror[39m | Jan-03-2022 17:19:50 | Error: undefined, Message: Unknown API key Cloudinary API key, Stack: undefined 
+[31merror[39m | Jan-03-2022 19:36:44 | Error: -4, Message: Product or Cart to add does not exist, Stack: NotFound: Product or Cart to add does not exist
+    at new BaseError (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/errors/index.ts:13:11)
+    at new NotFound (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/errors/index.ts:43:5)
+    at CartModelMongoDB.<anonymous> (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/models/mongodb/cart.ts:132:15)
+    at Generator.throw (<anonymous>)
+    at rejected (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/models/mongodb/cart.ts:6:65)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) 
+[31merror[39m | Jan-04-2022 09:48:14 | Error: -1, Message: You need to be logged-in to perform this action, Stack: UnauthorizedRoute: You need to be logged-in to perform this action
+    at new BaseError (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/errors/index.ts:13:11)
+    at new UnauthorizedRoute (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/errors/index.ts:52:5)
+    at isLoggedIn (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/middlewares/auth.ts:158:11)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/node_modules/express/lib/router/index.js:275:10) 
+[31merror[39m | Jan-04-2022 09:49:27 | Error: -4, Message: Product not found., Stack: NotFound: Product not found.
+    at new BaseError (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/errors/index.ts:13:11)
+    at new NotFound (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/errors/index.ts:43:5)
+    at /Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/controllers/product.ts:42:14
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/controllers/product.ts:5:58)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) 
+[31merror[39m | Jan-04-2022 09:50:41 | Error: -5, Message: Method not implemented, Stack: NotImplemented: Method not implemented
+    at new BaseError (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/errors/index.ts:13:11)
+    at new NotImplemented (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/errors/index.ts:20:5)
+    at /Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/controllers/product.ts:51:14
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/controllers/product.ts:5:58)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)  
+[31merror[39m | Jan-04-2022 10:01:58 | Error: -4, Message: Product not found., Stack: NotFound: Product not found.
+    at new BaseError (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/errors/index.ts:13:11)
+    at new NotFound (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/errors/index.ts:43:5)
+    at /Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/controllers/product.ts:42:14
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/controllers/product.ts:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) 
+[31merror[39m | Jan-04-2022 10:10:11 | Error: -4, Message: Product does not exist on cart., Stack: NotFound: Product does not exist on cart.
+    at new BaseError (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/errors/index.ts:13:11)
+    at new NotFound (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/errors/index.ts:43:5)
+    at CartModelMongoDB.<anonymous> (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/models/mongodb/cart.ts:76:20)
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/models/mongodb/cart.ts:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) 
+[31merror[39m | Jan-04-2022 10:11:52 | Error: -4, Message: Order could not be found, please check the data and try again, Stack: NotFound: Order could not be found, please check the data and try again
+    at new BaseError (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/errors/index.ts:13:11)
+    at new NotFound (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/errors/index.ts:43:5)
+    at OrdersModelMongoDb.<anonymous> (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/models/mongodb/orders.ts:129:15)
+    at Generator.throw (<anonymous>)
+    at rejected (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/models/mongodb/orders.ts:6:65)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) 
+[31merror[39m | Jan-05-2022 11:26:58 | Error: -1, Message: You need to be logged-in to perform this action, Stack: UnauthorizedRoute: You need to be logged-in to perform this action
+    at new BaseError (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/errors/index.ts:13:11)
+    at new UnauthorizedRoute (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/errors/index.ts:52:5)
+    at isLoggedIn (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/src/middlewares/auth.ts:158:11)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/node_modules/express/lib/router/index.js:317:13)
+    at /Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/mac/Desktop/Prog BackEnd | Coderhouse/Proyecto Final/node_modules/express/lib/router/index.js:47:12) 
